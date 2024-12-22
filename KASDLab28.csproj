@@ -42,7 +42,31 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
+  ItemGroup>
+    <Compile Include="IMyCollection.cs" />
+    <Compile Include="IMyIteratorList.cs" />
+    <Compile Include="MyDeque\IMyDeque.cs" />
+    <Compile Include="MyDeque\MyArrayDeque.cs" />
+    <Compile Include="IMyIterator.cs" />
+    <Compile Include="MyList\IMyList.cs" />
+    <Compile Include="MyList\MyArrayList.cs" />
+    <Compile Include="MyList\MyLinkedList.cs" />
+    <Compile Include="MyList\MyLinkedListNode.cs" />
+    <Compile Include="MyList\MyVector.cs" />
+    <Compile Include="MyMap\IMap.cs" />
+    <Compile Include="MyNavigableMap\IMyNavigableMap.cs" />
+    <Compile Include="MyNavigableMap\MyTreeMap.cs" />
+    <Compile Include="MyNavigableMap\Node.cs" />
+    <Compile Include="MyNavigableSet\IMyNavigableSet.cs" />
+    <Compile Include="MyNavigableSet\MyTreeSet.cs" />
+    <Compile Include="MyQueue\IMyQueue.cs" />
+    <Compile Include="MyQueue\MyPriorityQueue.cs" />
+    <Compile Include="MyQueue\MyPriotiryTask.cs" />
+    <Compile Include="MyQueue\MyPriotiryTaskComparer.cs" />
+    <Compile Include="MySet\IMySet.cs" />
+    <Compile Include="MyMap\MyHashMap.cs" />
+    <Compile Include="MySet\MyHashSet.cs" />
+    <Compile Include="MySortedMap\IMySortedMap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
